@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt|Sarabun');
+	  
+html,
+body {
+	height: 100%;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 14px;
+}
+body {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #fff url('../img/bg.jpg') no-repeat fixed center;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Prompt', serif
+}
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+.form-signin .checkbox {
+	font-weight: 400;
+}
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.main-title{text-align: right !important;}
+.main-box{
+	width: 99%;
+	max-width:720px;
+	margin:auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	box-shadow:0px 0px 5px #ccc;
+}
+.error-box{
+	width: 99%;
+	max-width:720px;
+	margin: 5px auto;
+	padding : 10px;
+	color :white;
+	background-color: #ffc107!important;
+	border-radius: 10px;
+}
+.error-box p{font-size: 18px; margin: auto;}
+	
+.test-icon{
+	width: 100%;
+	padding: 10px;
+	margin: 15px auto;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+@media (max-width: 576px){
+	body {align-items: normal;}
+	.main-title{	text-align: center !important;}
+}
